@@ -1,0 +1,52 @@
+{
+    "Avatar": {
+        "rating": 9.9,
+        "year": 2009,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
+    },
+    "Spider-Man 2": {
+        "rating": 7.5,
+        "year": 2004,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    "Hateful eight": {
+        "rating": 7.8,
+        "year": 2015,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg"
+    },
+    "Avengers": {
+        "rating": 8.0,
+        "year": 2012,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    },
+    "Hulk": {
+        "rating": 5.6,
+        "year": 2003,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzQwZDg1MGEtN2E5My00ZDJlLWI4MzItM2U2MjJhYzlkNmEzXkEyXkFqcGdeQXVyNDAxNjkxNjQ@._V1_SX300.jpg"
+    },
+    "Friday": {
+        "rating": 7.2,
+        "year": 1995,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmEwNjNlZTUtNzkwMS00ZTlhLTkyY2MtMjM2MzlmODQyZGVhXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg"
+    },
+    "Next Friday": {
+        "rating": 6.1,
+        "year": 2000,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTg4NTkzMDEtM2MzOS00MDE1LWJmYWItYzdiMGRiNTdmZmFkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
+    },
+    "Joker": {
+        "rating": 8.4,
+        "year": 2019,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+    },
+    "Spider-Man": {
+        "rating": 7.4,
+        "year": 2002,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg"
+    },
+    "Borat": {
+        "rating": 7.4,
+        "year": 2006,
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_SX300.jpg"
+    }
+}
