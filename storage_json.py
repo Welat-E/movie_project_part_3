@@ -10,6 +10,7 @@ class StorageJson(IStorage):
         #load the JSON file and save the data as a dict
         self.movies = self.load()
 
+
     def load(self):
         """Loads JSON FILE"""
         try:
@@ -18,14 +19,17 @@ class StorageJson(IStorage):
         except FileNotFoundError:
             return {}  #return an empty dictionary if the file does not exist
 
+
     def save(self):
         """Saves the movies dictionary to the JSON FILE"""
         with open(self.file_path, "w") as f:
             json.dump(self.movies, f, indent=4)
 
+
     def list_movies(self):
         """Gives all movies from dict"""
         return self.movies
+
 
     def add_movie(self):
         """Adds movie to storage"""
@@ -34,7 +38,7 @@ class StorageJson(IStorage):
             url = f"http://www.omdbapi.com/?apikey={APIkeys.APIkey}&t={key}"
             response = requests.get(url)
 
-            print(response.json()) 
+            #print(response.json()) 
 
             if response.status_code == 200:
                 response2 = response.json()
@@ -58,6 +62,7 @@ class StorageJson(IStorage):
         except Exception as e:
             print(e)
 
+
     def delete_movie(self):
         """Deletes movies from the storage"""
         del_movie = input("Enter a movie to delete: ")
@@ -68,6 +73,7 @@ class StorageJson(IStorage):
         else:
             print("This movie is not in your list.")
         return self.movies
+
 
     def update_movie(self):
         """Update the rating of an existing movie."""

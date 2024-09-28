@@ -114,7 +114,9 @@ class MovieApp:
         found = False
         for name, movie_info in movies.items():
             if movie_name.lower() in name.lower():
-                print(name, movie_info)
+                print(
+                    f"{name}, Rating: {movie_info['rating']} Year: {movie_info['year']}"
+                )
                 found = True
         if not found:
             print("No movies found with that name.")

@@ -9,6 +9,7 @@ class StorageCsv(IStorage):
             self.load_movies()
         )  # load movies from the CSV file on initialization
 
+
     def load_movies(self):
         """Load movies from the CSV file and return as a dictionary."""
         movies = {}
@@ -26,6 +27,7 @@ class StorageCsv(IStorage):
             # if the file does not exist, return an empty dict
             pass
         return movies
+
 
     def save_movies(self):
         """Save the movies dictionary to the CSV file."""
@@ -46,10 +48,12 @@ class StorageCsv(IStorage):
         """Return the movies dictionary."""
         return self.movies
 
+
     def add_movie(self, title, year, rating, poster):
         """Add a movie to the storage."""
         self.movies[title] = {"rating": rating, "year": year, "Poster": poster}
         self.save_movies()  # save changes to the CSV file
+
 
     def delete_movie(self, title):
         """Delete a movie from the storage."""
@@ -58,6 +62,7 @@ class StorageCsv(IStorage):
             self.save_movies()
         else:
             print(f"Movie '{title}' not found in the list.")
+
 
     def update_movie(self, title, rating):
         """Update the rating of an existing movie."""
